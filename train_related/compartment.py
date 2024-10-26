@@ -1,5 +1,4 @@
-from user import user_station_selector.py
-
+import user_station_selector.py from user
 def get_suggested_compartment(boarding_station, destination_station, time):
     # Find the appropriate train for the given boarding time and stations
     for train, schedule in station_schedule.items():
